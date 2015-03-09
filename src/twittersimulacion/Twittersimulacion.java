@@ -47,10 +47,10 @@ public class Twittersimulacion {
     public static void configurar() {
         ConfigurationBuilder cb = new ConfigurationBuilder();
         cb.setDebugEnabled(true)
-                .setOAuthConsumerKey("xFFiKZJDjfXDw2izy0QaHtzj5")
-                .setOAuthConsumerSecret("pY58gWpNmC6fWhsKGWFLlb6GBZaII4raWMPJKHABl2Ii2kG3m1")
-                .setOAuthAccessToken("3071806397-OijRVSvbNfz0k9IC8EKMWiWWrqbXMUtdWHKE6pp")
-                .setOAuthAccessTokenSecret("fNcZiy8pTjx8BMEMCPjzL6Cx788DZ7v27dfkZg71y0V2j");
+                .setOAuthConsumerKey("xFFiK***aHtzj5")
+                .setOAuthConsumerSecret("pY58gWpNmC6fWhs***JKHABl2Ii2kG3m1")
+                .setOAuthAccessToken("3071806397-OijRVSvbNfz***tdWHKE6pp")
+                .setOAuthAccessTokenSecret("fNcZiy8pT***27dfkZg71y0V2j");
 
         twitter = new TwitterFactory(cb.build()).getInstance();
     }
