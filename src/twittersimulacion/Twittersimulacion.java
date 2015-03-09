@@ -41,7 +41,7 @@ public class Twittersimulacion {
 
     /**
      * Método para configurar la sesión con twitter.
-     * @param Vacío.
+     * 
      * 
      */
     public static void configurar() {
@@ -57,7 +57,7 @@ public class Twittersimulacion {
 
     /**
      * Método que postea un tuit.
-     * @throws TwitterException 
+     * @throws TwitterException Excepción propia de twitter.
      */
     public static void postearTuit() throws TwitterException {
        
@@ -67,7 +67,7 @@ public class Twittersimulacion {
 
     /**
      * Método que te permite ver los tuits de tus seguidores.
-     * @throws TwitterException 
+     * @throws TwitterException Excepción propia de twitter.
      */
     public static void TL() throws TwitterException {
        
@@ -81,7 +81,7 @@ public class Twittersimulacion {
 
     /**
      * Método que te permite buscar mediante el hashtag que introduzcas.
-     * @throws TwitterException 
+     * @throws TwitterException Excepción propia de twitter.
      */
     public static void buscarPorHashtag() throws TwitterException {
         
